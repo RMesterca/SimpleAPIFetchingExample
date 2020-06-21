@@ -1,0 +1,6 @@
+framework module Pods_SimpleAPIFetchingExample {
+  umbrella header "Pods-SimpleAPIFetchingExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
