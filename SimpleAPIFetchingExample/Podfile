@@ -12,9 +12,9 @@ target 'SimpleAPIFetchingExample' do
         pod 'R.swift'
 
 	# Networking
-	pod 'Moya'
-        pod 'Wormholy', :configurations => ['Debug']
+ 	pod 'Moya'
 
+	# Image Loading
 	pod 'Nuke'
 
 

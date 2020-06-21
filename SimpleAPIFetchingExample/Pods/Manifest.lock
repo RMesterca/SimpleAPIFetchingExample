@@ -1,22 +1,22 @@
 PODS:
-  - Alamofire (5.1.0)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
-    - Alamofire (~> 5.0)
+  - Alamofire (4.9.1)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
   - Nuke (8.4.1)
   - R.swift (5.2.2):
     - R.swift.Library (~> 5.2.0)
   - R.swift.Library (5.2.0)
+  - Result (4.1.0)
   - SwiftLint (0.39.2)
-  - Wormholy (1.6.2)
 
 DEPENDENCIES:
   - Moya
   - Nuke
   - R.swift
   - SwiftLint
-  - Wormholy
 
 SPEC REPOS:
   trunk:
@@ -25,18 +25,18 @@ SPEC REPOS:
     - Nuke
     - R.swift
     - R.swift.Library
+    - Result
     - SwiftLint
-    - Wormholy
 
 SPEC CHECKSUMS:
-  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
   R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
   R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
-  Wormholy: 5a186f877829e7d488963b09f204e0186b40c9a8
 
-PODFILE CHECKSUM: 39dfd22dd90e87d71b771adec21c3891f6233e09
+PODFILE CHECKSUM: d0caf76dc8b1ff9e77f2e559eb195772bf4d3552
 
 COCOAPODS: 1.9.1

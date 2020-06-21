@@ -10,22 +10,8 @@ import Foundation
 
 enum BaseURL {
 
-    enum Environment {
-        case dev
-        case staging
-    }
-
+    // Normally, there would be separate environments
     static var apiURL: URL {
-        guard let env = ProcessInfo.processInfo.environment["environment"]
-            else { assertionFailure(); return URL(string: "https://www.google.com")! }
-
-        // Normally, there would be separate environments
-        switch env {
-        case "dev", "staging", "live":
-            return URL(string: "https://jsonplaceholder.typicode.com")!
-        default:
-            assertionFailure("undefined environment")
-            return URL(string: "https://www.google.com")!
-        }
+        return URL(string: "https://jsonplaceholder.typicode.com")!
     }
 }
